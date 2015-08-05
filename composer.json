@@ -1,0 +1,28 @@
+{
+  "name": "marchie/ms-application-insights-monolog",
+  "description": "Microsoft Application Insights integration for monolog. An abstract handler that sends messages to Microsoft Application Insights",
+  "keywords": ["microsoft", "application insights", "monolog", "logging", "error"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chris March",
+      "email": "marchie@marchie.net"
+    }
+  ],
+
+  "require" : {
+    "monolog/monolog": "^1.7.0",
+    "microsoft/application-insights": "^0.3.0"
+  },
+
+  "require-dev": {
+
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Marchie\\MSApplicationInsightsMonolog\\": "src/"
+    }
+  }
+}
