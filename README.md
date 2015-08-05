@@ -1,5 +1,5 @@
-Microsoft Application Insights
-==============================
+Microsoft Application Insights for Monolog
+==========================================
 
 Monolog Handler connection to [Microsoft Application Insights](http://azure.microsoft.com/en-gb/services/application-insights/)
 
